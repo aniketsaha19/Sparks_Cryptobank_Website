@@ -1,0 +1,111 @@
+.head_main{ 
+	width: 100%;
+    float: left;
+    background-image: url(../images/headpic.jpg);
+    padding-top: 15px;
+    padding-bottom: 30px; 
+}
+.logo{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 55px;
+}
+.heading
+{
+  font-family: Georgia, sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  color:white
+}
+.misc
+{
+	color:white;
+	font-style: italic;
+	font-family: "Trirong", serif;
+	font-size: 25px;
+	text-align: center;
+}
+.misc1
+{
+	color:black;
+	font-style: italic;
+	font-family: "Trirong", serif;
+	font-size: 25px;
+	text-align: center;
+}
+.transfertab
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.tab {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 25%;
+}
+
+td, th {
+  border: 1px solid #b375ec;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b375ec;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.col {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.ro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.usualbutton {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.clickpri{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #b375ec;
+  border-radius: 12px;
+}
+
+.clickpri:hover {
+  background-color: #b375ec;
+  color: white;
+}
+.iconcontact{
+	width:50px
+}
